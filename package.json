@@ -21,7 +21,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-    "postbuild": "cd /var/to/lib/jenkins/workspace/meet-web/build && gzip *.js && gzip *.css
   },
   "eslintConfig": {
     "extends": [
