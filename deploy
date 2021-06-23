@@ -1,8 +1,0 @@
-#!/bin/sh
-ssh root@157.245.100.1 <<EOF
-cd /root/test
-git pull
-yarn install --production
-pm2 restart all
-exit
-EOF
